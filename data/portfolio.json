@@ -55,9 +55,9 @@
     {
       "id": "Landing Page",
       "title": "Landing Page",
-      "description": "Simple landing page, It has a good responsive style.",
-      "imageSrc": "https://github.com/RaHasib/Personla-Portfolio/blob/main/public/images/4.png?raw=true",
-      "url": "https://github.com/RaHasib/bs-bootcampex"
+      "description": "Using Astro Simple landing page.",
+      "imageSrc": "https://raw.githubusercontent.com/RaHasib/astro-website-playing/main/src/images/Screenshot%202023-03-23%20121503.png",
+      "url": "https://github.com/RaHasib/astro-website-playing"
     }
   ],
   "services": [
