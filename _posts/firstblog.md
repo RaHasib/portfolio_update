@@ -13,9 +13,6 @@ preview: >-
 image: >-
   https://images.unsplash.com/photo-1504309092620-4d0ec726efa4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
 ---
-
-# Heading One
-
 As **AI** technology continues to advance, there's been a growing concern that machines will replace human workers. However, while AI technology has its advantages, it can't replace the human touch. The personal connection and emotional intelligence that humans possess are irreplaceable and essential in many industries.
 
 In customer service, for example, customers want to feel heard and understood. Chatbots and AI technology can provide quick responses, but they lack the empathy and personal touch that humans can provide. The same is true in healthcare, where the human touch is especially important. Patients want to feel like they are being cared for by a real person, not a machine.
