@@ -10,7 +10,8 @@ const App = ({ Component, pageProps }) => {
         <Head>
             <link rel="shortcut icon" href="/favicon.ico" />
         </Head>
-<Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-NMK1WMJZYB"/>
+
+<Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-NMK1WMJZYB" async/>
 
         <Script id="google-analytics" strategy="afterInteractive" >
             {`
