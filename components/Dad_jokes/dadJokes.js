@@ -8,20 +8,20 @@ const DadJoke = () => {
     const [showJoke, setShowJoke] = useState(false);
 
     const StyledButton = styled(Button)`
-    background-color: #94c7ac;
-    color: #000000;
-    border-radius: 8px;
-    padding: 9px 10px;
-    font-size: 12px;
-    font-weight: lighter;
-    text-transform: uppercase;
-    transition: background-color 0.3s ease;
+      background-color: #94c7ac;
+      color: #000000;
+      border-radius: 8px;
+      padding: 9px 10px;
+      font-size: 12px;
+      font-weight: lighter;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease;
 
-    &:hover {
-      background-color: #4bb382;
-      color: white;
-    }
-  `;
+      &:hover {
+        background-color: #4bb382;
+        color: white;
+      }
+    `;
 
     const fetchJoke = async () => {
         try {
@@ -43,7 +43,7 @@ const DadJoke = () => {
             {showJoke ? (
                 <p className="p-4">{joke}</p>
             ) : (
-                <p className="p-4">Click "Get Dad Jokes" to see a joke</p>
+                <p className="p-4">Click &quot;Get Dad Jokes&quot; to see a joke</p>
             )}
             <StyledButton variant="contained" onClick={fetchJoke} endIcon={<Face6Icon />}>
                 Get Dad Jokes
