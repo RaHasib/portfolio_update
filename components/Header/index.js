@@ -103,7 +103,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         </Popover>
         <div
             className={`mt-10 hidden flex-row items-center justify-between ${
-                theme === "light" ? "bg-lightgreen" : ""
+                theme === "light" && "bg-white"
             } dark:text-white top-0 z-10 tablet:flex`}
         >
             <h1
