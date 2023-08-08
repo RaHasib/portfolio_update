@@ -13,7 +13,7 @@ const DadJoke = () => {
       border-radius: 8px;
       padding: 9px 10px;
       font-size: 12px;
-      font-weight: lighter;
+      font-weight: bold;
       text-transform: uppercase;
       transition: background-color 0.3s ease;
 
