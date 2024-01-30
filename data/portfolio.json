@@ -1,1 +1,132 @@
-{"name":"Hasib","headerTaglineOne":"Hey hey 👋","headerTaglineTwo":"I'm Hasib🤪","headerTaglineThree":"Designer , Developer & Photographer 📸 ","headerTaglineFour":" based in Shanghai, China.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/RaHasib"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/raisul-amin-hasib-362413179/"},{"id":"3","title":"Twitter","link":"https://twitter.com/RaisulHasib"},{"id":"4","title":"Blog","link":"/blog"}],"projects":[{"id":"1","title":"Web App","description":"JavaScript, Node.js, Express & MongoDB. This App is called Secret and it is a simple social media app that allows users to post their secrets that happened in their lives.","imageSrc":"https://raw.githubusercontent.com/RaHasib/Personla-Portfolio/main/public/images/1.png","url":"https://github.com/RaHasib/secrets"},{"id":"2","title":"The Time","description":"Simple Time Management system ","imageSrc":"https://raw.githubusercontent.com/RaHasib/thetime/main/The%20Time.png","url":"https://github.com/RaHasib/thetime"},{"id":"3","title":"Weather App","description":"This application is all about getting weather info by searching different city's name. For that needed to use Application programming interface. Simply just type your city name and you will get the weather information.","imageSrc":"https://raw.githubusercontent.com/RaHasib/Personla-Portfolio/main/public/images/3.png","url":"https://github.com/RaHasib/Weather-App"},{"id":"Landing Page","title":"Simple Blog Page","description":"Using Next JS 13.","imageSrc":"https://raw.githubusercontent.com/RaHasib/Blog-With-Next-Js/main/Screenshot%202023-10-26%20130140.png","url":"https://blog-with-next-9dmalzd2e-rahasibs-projects.vercel.app/"}],"services":[{"id":"1","title":"Front-end","description":"HTML, CSS And Java Script"},{"id":"2","title":"Frameworks","description":"React, Vue, NodeJS "},{"id":"3","title":"Web Design","description":"Figma, Adobe XD"},{"id":"4","title":"3D Design","description":"Blender, 3D Max, Unreal Engine 4"}],"aboutpara":"As a Junior Web Developer and Designer, I have a passion for both coding and capturing moments through my camera lens 📸. After completing my Computer Science and Technology degree at Tiangong University , Former Name( Tianjin Polytechnic University), I landed my first job at #iDRC Shanghai LTD. Since then, I've been exploring the exciting world of Full-Stack Web Development, Artificial Intelligence Machine Learning, Deep Learning and 3D modeling & design.\nLiving in China since 2018 has allowed me to immerse myself in diverse cultures and meet individuals from all walks of life. This exposure has helped me quickly adapt to changes and develop a broader perspective. My insatiable curiosity fuels my love for learning, problem-solving, and fixing errors. Being detail-oriented and keeping my tasks organized helps me maintain my productivity and achieve my goals.\nMy university and work experiences have equipped me with a unique set of skills that define who I am today. I am eager to continue honing these skills and applying them to new opportunities that come my way.","resume":{"tagline":"👋  I'm a Junior Web Developer and Designer.","description":"Well-versed with React, Javascript, and most of the Web frameworks and design tools.","experiences":[{"id":"1","dates":"May 2022 - Present","type":"Full Time","position":"Front-end Engineer at iDRC","bullets":"JavaScript, REACT"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"Nov 2020 - Feb 2021","type":"Internship","position":"Graphics Designer (UX/UI)","bullets":"Worked on the UX/UI design, Worked on 3D Design application"}],"education":{"universityName":"Tiangong University","universityDate":"2018-2022 - BE in Computer Science & Technology ","universityPara":"Tiangong University former name ( Tianjin Polytechnic University ) is a university jointly established by the Ministry of Education of the People's Republic of China and Tianjin City. It is the only university in Tianjin jointly established by the National Defense Science, Technology and Industry Bureau and the Tianjin Municipal People's Government. It is a key full-time general institution of higher learning in Tianjin."},"languages":["Javascript","HTML5","CSS","C","Python"],"frameworks":["React","Typescript","NodeJs","VUE"],"others":["Figma","AdobeXD","Blender","3D MAX","Unity","Unreal Engine 4"]}}
+{
+  "name": "Hasib",
+  "headerTaglineOne": "Hey hey 👋",
+  "headerTaglineTwo": "I'm Hasib🤪",
+  "headerTaglineThree": "Designer , Developer & Photographer 📸 ",
+  "headerTaglineFour": " based in Shanghai, China.",
+  "showCursor": true,
+  "showBlog": true,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/RaHasib"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/raisul-amin-hasib-362413179/"
+    },
+    {
+      "id": "3",
+      "title": "Twitter",
+      "link": "https://twitter.com/RaisulHasib"
+    },
+    {
+      "id": "4",
+      "title": "Blog",
+      "link": "/blog"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Web App",
+      "description": "JavaScript, Node.js, Express & MongoDB. This App is called Secret and it is a simple social media app that allows users to post their secrets that happened in their lives.",
+      "imageSrc": "https://raw.githubusercontent.com/RaHasib/Personla-Portfolio/main/public/images/1.png",
+      "url": "https://github.com/RaHasib/secrets"
+    },
+    {
+      "id": "2",
+      "title": "Dad Joke Generator",
+      "description": "Simple Joke Generator using Free API",
+      "imageSrc": "https://raw.githubusercontent.com/RaHasib/dad_joke_generator/main/public/Screenshot%202024-01-30%20132452.png",
+      "url": "https://rahasib.github.io/dad_joke_generator/"
+    },
+    {
+      "id": "3",
+      "title": "Weather App",
+      "description": "This application is all about getting weather info by searching different city's name. For that needed to use Application programming interface. Simply just type your city name and you will get the weather information.",
+      "imageSrc": "https://raw.githubusercontent.com/RaHasib/Personla-Portfolio/main/public/images/3.png",
+      "url": "https://github.com/RaHasib/Weather-App"
+    },
+    {
+      "id": "Landing Page",
+      "title": "Simple Blog Page",
+      "description": "Using Next JS 13.",
+      "imageSrc": "https://raw.githubusercontent.com/RaHasib/Blog-With-Next-Js/main/Screenshot%202024-01-30%20142056.png",
+      "url": "https://blog-with-next-9dmalzd2e-rahasibs-projects.vercel.app/"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Front-end",
+      "description": "HTML, CSS And Java Script"
+    },
+    {
+      "id": "2",
+      "title": "Frameworks",
+      "description": "React, Vue, NodeJS "
+    },
+    {
+      "id": "3",
+      "title": "Web Design",
+      "description": "Figma, Adobe XD"
+    },
+    {
+      "id": "4",
+      "title": "3D Design",
+      "description": "Blender, 3D Max, Unreal Engine 4"
+    }
+  ],
+  "aboutpara": " 'Hey 👋 I'm Hasib, a Junior Front-End Developer with a passion for web development, security research, and ML/DL. I started my journey in 2018, and now, I enjoy working with JS, React, Typescript etc.",
+  "resume": {
+    "tagline": "👋  I'm a Junior Web Developer and Designer.",
+    "description": "Well-versed with React, Javascript, and most of the Web frameworks and design tools.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "May 2022 - Present",
+        "type": "Full Time",
+        "position": "Front-end Engineer at iDRC",
+        "bullets": "JavaScript, REACT"
+      },
+      {
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "Nov 2020 - Feb 2021",
+        "type": "Internship",
+        "position": "Graphics Designer (UX/UI)",
+        "bullets": "Worked on the UX/UI design, Worked on 3D Design application"
+      }
+    ],
+    "education": {
+      "universityName": "Tiangong University",
+      "universityDate": "2018-2022 - BE in Computer Science & Technology ",
+      "universityPara": "Tiangong University former name ( Tianjin Polytechnic University ) is a university jointly established by the Ministry of Education of the People's Republic of China and Tianjin City. It is the only university in Tianjin jointly established by the National Defense Science, Technology and Industry Bureau and the Tianjin Municipal People's Government. It is a key full-time general institution of higher learning in Tianjin."
+    },
+    "languages": [
+      "Javascript",
+      "HTML5",
+      "CSS",
+      "C",
+      "Python"
+    ],
+    "frameworks": [
+      "React",
+      "Typescript",
+      "NodeJs",
+      "VUE"
+    ],
+    "others": [
+      "Figma",
+      "AdobeXD",
+      "Blender",
+      "3D MAX",
+      "Unity",
+      "Unreal Engine 4"
+    ]
+  }
+}
