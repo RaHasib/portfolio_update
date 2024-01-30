@@ -13,10 +13,6 @@ import Cursor from "../../components/Cursor";
 import data from "../../data/portfolio.json";
 
 const BlogPost = ({ post }) => {
-  if (!post) {
-    return <div>Loading...</div>;
-  }
-
   const [showEditor, setShowEditor] = useState(false);
   const textOne = useRef();
   const textTwo = useRef();
@@ -25,6 +21,10 @@ const BlogPost = ({ post }) => {
   useEffect(() => {
     stagger([textOne.current, textTwo.current], { y: 30 }, { y: 0 });
   }, []);
+
+  if (!post) {
+    return <div>Loading...</div>;
+  }
 
   return (
       <>
