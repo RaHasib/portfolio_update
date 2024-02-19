@@ -45,89 +45,86 @@ const Resume = () => {
           <Header isBlog />
           {mount && (
               <div className="mt-10 w-full flex flex-col items-center">
-                <div
-                    className={`w-full ${
-                        mount && theme.theme === "dark" ? "bg-slate-800" : "bg-gray-50"
-                    } max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg shadow-sm`}
-                >
-                  <h1 className="text-3xl font-bold">{name}</h1>
-                  <h2 className="text-xl mt-5">{resume?.tagline}</h2>
-                  <h2 className="w-4/5 text-xl mt-5 opacity-50">
-                    {resume?.description}
-                  </h2>
-                  <div className="mt-2">
-                    <Socials />
-                  </div>
-                  <div className="mt-5">
-                    <h1 className="text-2xl font-bold">Experience</h1>
-                    {resume?.experiences?.map(
-                        ({ id, dates, type, position, bullets }) => (
-                            <ProjectResume
-                                key={id}
-                                dates={dates}
-                                type={type}
-                                position={position}
-                                bullets={bullets}
-                            ></ProjectResume>
-                        )
-                    )}
-                  </div>
-                  <div className="mt-5">
-                    <h1 className="text-2xl font-bold">Education</h1>
-                    <div className="mt-2">
-                      <h2 className="text-lg">{resume?.education?.universityName}</h2>
-                      <h3 className="text-sm opacity-75">
-                        {resume?.education?.universityDate}
-                      </h3>
-                      <p className="text-sm mt-2 opacity-50">
-                        {resume?.education?.universityPara}
-                      </p>
-                    </div>
-                  </div>
-                  <div className="mt-5">
-                    <h1 className="text-2xl font-bold">Skills</h1>
-                    <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4">
-                      {resume.languages && (
-                          <div className="mt-2 mob:mt-5">
-                            <h2 className="text-lg">Languages</h2>
-                            <ul className="list-disc">
-                              {resume.languages.map((language, index) => (
-                                  <li key={index} className="ml-5 py-2">
-                                    {language}
-                                  </li>
-                              ))}
-                            </ul>
+                  <div
+                      className={`w-full ${
+                          mount && theme.theme === "dark" ? "bg-slate-800" : "bg-gray-100"
+                      } max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg shadow-sm`}
+                  >
+                      <h1 className="text-3xl font-bold">{name}</h1>
+                      <h2 className="text-xl mt-5">{resume?.tagline}</h2>
+                      <h2 className="w-4/5 text-xl mt-5 opacity-50">
+                          {resume?.description}
+                      </h2>
+                      <div className="mt-2">
+                          <Socials/>
+                      </div>
+                      <div className="mt-5">
+                          <h1 className="text-2xl font-bold">Experience</h1>
+                          {resume?.experiences?.map(
+                              ({id, dates, type, position, bullets}) => (
+                                  <ProjectResume
+                                      key={id}
+                                      dates={dates}
+                                      type={type}
+                                      position={position}
+                                      bullets={bullets}
+                                  ></ProjectResume>
+                              )
+                          )}
+                      </div>
+                      <div className="mt-5">
+                          <h1 className="text-2xl font-bold">Education</h1>
+                          <div className="mt-2">
+                              <h2 className="text-lg">{resume?.education?.universityName}</h2>
+                              <h3 className="text-sm opacity-75">
+                                  {resume?.education?.universityDate}
+                              </h3>
+                              <p className="text-sm mt-2 opacity-50">
+                                  {resume?.education?.universityPara}
+                              </p>
                           </div>
-                      )}
+                      </div>
 
-                      {resume.frameworks && (
-                          <div className="mt-2 mob:mt-5">
-                            <h2 className="text-lg">Frameworks</h2>
-                            <ul className="list-disc">
-                              {resume.frameworks.map((framework, index) => (
-                                  <li key={index} className="ml-5 py-2">
-                                    {framework}
-                                  </li>
-                              ))}
-                            </ul>
-                          </div>
-                      )}
+                      <div className="mt-5">
+                          <h1 className="text-2xl font-bold">Skills</h1>
+                          <div className="grid grid-cols-2 grid-rows gap-4">
+                              {resume.languages && (
+                                  <div className="mt-2 mob:mt-5 row-span-2">
+                                      <h2 className="text-lg">Languages</h2>
+                                      <ul className="list-disc">
+                                          {resume.languages.map((language, index) => (
+                                              <li key={index} className="ml-5 py-2">{language}</li>
+                                          ))}
+                                      </ul>
+                                  </div>
+                              )}
 
-                      {resume.others && (
-                          <div className="mt-2 mob:mt-5">
-                            <h2 className="text-lg">Others</h2>
-                            <ul className="list-disc">
-                              {resume.others.map((other, index) => (
-                                  <li key={index} className="ml-5 py-2">
-                                    {other}
-                                  </li>
-                              ))}
-                            </ul>
+                              {resume.frameworks && (
+                                  <div className="mt-2 mob:mt-5">
+                                      <h2 className="text-lg">Frameworks</h2>
+                                      <ul className="list-disc">
+                                          {resume.frameworks.map((framework, index) => (
+                                              <li key={index} className="ml-5 py-2">{framework}</li>
+                                          ))}
+                                      </ul>
+                                  </div>
+                              )}
+
+                              {resume.others && (
+                                  <div className="mt-1 mob:mt-5 col-span-2">
+                                      <h2 className="text-lg">Others</h2>
+                                      <div className="flex flex-wrap gap-x-1 mt-1">
+                                          {resume.others.map((other, index) => (
+                                              <span key={index} className="ml-5 py-2">• {other}</span>
+                                          ))}
+                                      </div>
+                                  </div>
+                              )}
+
                           </div>
-                      )}
-                    </div>
+                      </div>
+
                   </div>
-                </div>
               </div>
           )}
         </div>

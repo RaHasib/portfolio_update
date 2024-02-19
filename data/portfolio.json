@@ -118,7 +118,7 @@
       "React",
       "Typescript",
       "NodeJs",
-      "VUE"
+      "Next Js"
     ],
     "others": [
       "Figma",
@@ -126,7 +126,10 @@
       "Blender",
       "3D MAX",
       "Unity",
-      "Unreal Engine 4"
+      "Unreal Engine 4",
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Adobe Premiere Pro"
     ]
   }
 }
