@@ -9,11 +9,6 @@ import Footer from "../components/Footer";
 import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
-<<<<<<< HEAD
-
-=======
-import Cursor from "../components/Cursor";
->>>>>>> cbb8909f25c76a5b6205c56e6dcea70a557eaeb1
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -53,12 +48,8 @@ export default function Home() {
   }, []);
 
   return (
-<<<<<<< HEAD
+
     <div className={`relative`}>
-=======
-    <div className={`relative ${data.showCursor && "cursor-none"}`}>
-      {data.showCursor && <Cursor />}
->>>>>>> cbb8909f25c76a5b6205c56e6dcea70a557eaeb1
       <Head>
         <title>{data.name}</title>
       </Head>
